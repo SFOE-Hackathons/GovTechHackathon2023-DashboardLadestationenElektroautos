@@ -62,6 +62,10 @@ Eine Beschreibung möglicher zukünftiger Entwicklungen des Systems, einschließ
 
 https://hack.opendata.ch/project/944
 
+Applikation 
+
+![qrCodeDashBoard](https://user-images.githubusercontent.com/35913243/227517104-42d0a848-4423-44a6-b2ba-f5d3e86ec27b.png)
+
 ## Front-End Repository
 
 https://github.com/jarheadcore/govtech-poc
