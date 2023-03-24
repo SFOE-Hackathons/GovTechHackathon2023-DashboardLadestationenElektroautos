@@ -33,9 +33,9 @@ Das Backend stellt folgende Endpunkte zur Verfügung: (WORK IN PROGRESS)
 Für die Berechnung der bezogenen Ladeleistung wird die theoretisch verfügbare Leistung eines Stecker mit dem Faktor 0.6 multipliziert. Wenn für ein Stecker die Ladeleistung nicht bekannt ist, wird 11 kW angenommen.
 
 ## Benutzeroberfläche
-Bezogene Energiemenge des Vortages (MWh)<br>
-Aktuelle bezogene Ladeleistung (MW)<br>
-Aktuelle öffentliche genutzte Ladestandorte (%)<br>
+Bezogene Energiemenge des Vortages (MWh)
+Aktuelle bezogene Ladeleistung (MW)
+Aktuelle öffentliche genutzte Ladestandorte (%)
 Das Dashboard zeigt des weiteren eine Ladeintensitätskarte: Sie zeigt die aktuell bezogene Ladeleistung. Je intensiver der Gelbton, desto grösser die bezogene Ladeleistung. Das Balkendiagramm zeigt die bezogene Energiemenge pro Tag und Monat
 
 
@@ -64,8 +64,9 @@ Eine Beschreibung möglicher zukünftiger Entwicklungen des Systems, einschließ
 
 https://hack.opendata.ch/project/944
 
-Applikation 
+## Applikation 
 
+https://govtech.iwf.io/ 
 ![qrCodeDashBoard](https://user-images.githubusercontent.com/35913243/227517104-42d0a848-4423-44a6-b2ba-f5d3e86ec27b.png)
 
 ## Front-End Repository
