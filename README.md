@@ -1,6 +1,6 @@
 # GovTech Hackathon 2023 - Dashboard Ladestationen Elektroautos
 ## Einleitung
-Die Elektromobilität gewinnt immer mehr an Bedeutung und Elektrofahrzeuge werden zunehmend auf unseren Straßen zu sehen sein. Um den steigenden Bedarf an Ladestationen für Elektrofahrzeuge zu decken und eine effiziente Nutzung dieser Ladestationen zu gewährleisten, ist es wichtig, den Stromverbrauch und Konsum in Echtzeit zu überwachen. Aus diesem Grund wurde im Rahmen einer Challenge das Projekt "Dashboard Ladestationen Elektroautos" ins Leben gerufen, bei dem ein benutzerfreundliches und intuitives Dashboard entwickelt wurde, das die Überwachung des Stromverbrauchs und Konsums bei Ladestationen für Elektroautos ermöglicht. In diesem Projekt wurde die bereits vorhandene Datenquelle www.ich-tanke-strom.ch genutzt, um den aktuellen Status und die Verfügbarkeit der Ladestationen in Echtzeit zu verfolgen. Dieses Projekt bietet eine Möglichkeit für Netzbetreiber, Behörden und Stromanbieter, den Stromverbrauch und Konsum von Elektroautos bei Ladestationen in Echtzeit zu überwachen und somit eine effektive Planung der Netzauslastung zu gewährleisten.
+Die Elektromobilität gewinnt immer mehr an Bedeutung und Elektrofahrzeuge werden zunehmend auf unseren Strassen zu sehen sein. Um den steigenden Bedarf an Ladestationen für Elektrofahrzeuge zu decken und eine effiziente Nutzung dieser Ladestationen zu gewährleisten, ist es wichtig, den Stromverbrauch und Konsum in Echtzeit zu überwachen. Aus diesem Grund wurde im Rahmen einer [Challenge](https://hack.opendata.ch/project/944) das Projekt "Dashboard Ladestationen Elektroautos" ins Leben gerufen, bei dem ein benutzerfreundliches und intuitives Dashboard entwickelt wurde, das die Überwachung des Stromverbrauchs und Konsums bei Ladestationen für Elektroautos ermöglicht. In diesem Projekt wurde die bereits vorhandene Datenquelle [www.ich-tanke-strom.ch](https://www.ich-tanke-strom.ch) genutzt, um den aktuellen Status und die Verfügbarkeit der Ladestationen in Echtzeit zu verfolgen. Dieses Projekt bietet eine Möglichkeit für Netzbetreiber, Behörden und Stromanbieter, den Stromverbrauch und Konsum von Elektroautos bei Ladestationen in Echtzeit zu überwachen und somit eine effektive Planung der Netzauslastung zu gewährleisten.
 
 ## Architektur
 Dashboard Ladestationen Elektroautos ist eine Online-Plattform, die eine umfassende Datenbank von öffentlichen Ladestationen für Elektrofahrzeuge in der Schweiz bereitstellt. Die Architektur der Plattform umfasst mehrere Komponenten und Technologien.
@@ -15,7 +15,6 @@ Insgesamt ist die Architektur von Dashboard Ladestationen Elektroauto darauf aus
 
 ## API/Schnittstelle
 
-BEISPIEL
 Das Backend stellt folgende Endpunkte zur Verfügung:
 
     /api/charging-points: gibt eine Liste aller verfügbaren Ladestationen zurück
@@ -25,35 +24,45 @@ Das Backend stellt folgende Endpunkte zur Verfügung:
     
 ## Datenquellen 
 
-Die Daten werden von den folgenden JSON-APIs bereitgestellt:
+[Ladestationen für Elektroautos](https://opendata.swiss/de/dataset/ladestationen-fuer-elektroautos)
 
-    https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet.json: statische Daten zu den Ladestationen, aktualisiert kontinuierlich
-    https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/status/ch.bfe.ladestellen-elektromobilitaet.json: Verfügbarkeitsdaten der Ladestationen, aktualisiert kontinuierlich
-    https://data.geo.admin.ch/ch.bfe.ladestellen-elektromobilitaet/data/ch.bfe.ladestellen-elektromobilitaet_de.json: GeoJSON, aggregierte Daten der Ladestationen nach Standort
+[Ausführliche Dokumentation](https://github.com/SFOE/ichtankestrom_Documentation/blob/main/Access%20Download%20the%20data.md)
     
 
 ## Datenverarbeitung
 
-Die Daten werden von Python-Skripten verarbeitet, um sie aus den APIs zu sammeln, bereinigen, aggregieren und in eine ELSATIC  zu speichern.
+Die Daten werden von Python-Skripten verarbeitet, um sie aus den APIs zu sammeln, bereinigen, aggregieren und in eine ELSATIC zu speichern.
 
 ## Benutzeroberfläche
 Das Dashboard zeigt eine Karte mit den verfügbaren Ladestationen und deren aktuellen Status (verfügbar, besetzt, defekt) sowie Diagramme des historischen Stromverbrauchs jeder Ladestation.
 
-
-## Installation: 
-Eine Anleitung zur Installation und Konfiguration des Systems auf einem lokalen Server oder in der Cloud.
-
-## Anwendungsbeispiele:
+## Anwendungsbeispiele
 Einige Beispiele dafür, wie das System zur Überwachung des Stromverbrauchs und Konsums bei Elektrofahrzeug-Ladestationen in der Schweiz verwendet werden kann.
 
-## Limitationen: 
+## Limitationen
 Eine Diskussion über die Grenzen des Systems, einschließlich möglicher Einschränkungen bei der Verwendung der verfügbaren Daten und der Genauigkeit der Ergebnisse.
 
-## Zukünftige Entwicklungen: 
+## Zukünftige Entwicklungen
 Eine Beschreibung möglicher zukünftiger Entwicklungen des Systems, einschließlich der Integration neuer Datenquellen und der Verbesserung der Benutzererfahrung.
 
-## Links:
+## Links
 
 https://hack.opendata.ch/project/944
 
+## Front-End Repository
+
+https://github.com/jarheadcore/govtech-poc
+
+## Team
+
+https://github.com/bar9<br>
+https://github.com/dani72<br>
+https://github.com/davidoesch<br>
+https://github.com/jarheadcore<br>
+https://github.com/Kikof2<br>
+https://github.com/PhuongDasen<br>
+https://github.com/pitFromCH<br>
+https://github.com/cype<br>
+
+## Architektur
 ![image](Architektur.jpg)
