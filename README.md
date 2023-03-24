@@ -79,3 +79,4 @@ https://github.com/cype<br>
 
 ## Architektur
 ![image](Architektur.jpg)
+https://www.figma.com/file/I0ZCxpOksgNINw1O9YIkld/Untitled?t=zEReczUW3mQwgTqj-0
