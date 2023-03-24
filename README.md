@@ -66,7 +66,8 @@ https://hack.opendata.ch/project/944
 
 ## Applikation 
 
-https://govtech.iwf.io/ 
+Dashboard https://govtech.iwf.io/ 
+
 ![qrCodeDashBoard](https://user-images.githubusercontent.com/35913243/227517104-42d0a848-4423-44a6-b2ba-f5d3e86ec27b.png)
 
 ## Front-End Repository
