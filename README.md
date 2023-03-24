@@ -15,7 +15,7 @@ Insgesamt ist die Architektur von Dashboard Ladestationen Elektroauto darauf aus
 
 ## API/Schnittstelle
 
-Das Backend stellt folgende Endpunkte zur Verfügung:
+Das Backend stellt folgende Endpunkte zur Verfügung: (WORK IN PROGRESS)
 
     /api/charging-points: gibt eine Liste aller verfügbaren Ladestationen zurück
     /api/charging-points/:id/status: gibt den Status (verfügbar, besetzt, defekt) einer bestimmten Ladestation zurück
@@ -53,7 +53,12 @@ Der «SmartCharger» kann einerseits dynamisch den Ladestrom regulieren anderers
 
 
 ## Limitationen
-Eine Diskussion über die Grenzen des Systems, einschließlich möglicher Einschränkungen bei der Verwendung der verfügbaren Daten und der Genauigkeit der Ergebnisse.
+
+-	Es sind nicht von allen Steckern die Leistungen bekannt, wir arbeiten Annahmen
+-	Nur öffentlich zugängliche Ladestationen die dem BFE gemeldet wurden, werden berücksichtigt
+-	Dauer der Ladevorgänge wird abgeschätzt
+-	Stand: 24.3.2023: Dashboarddaten sind online dummy/Test Daten (ausser Karte
+.
 
 ## Zukünftige Entwicklungen
 Eine Beschreibung möglicher zukünftiger Entwicklungen des Systems, einschließlich der Integration neuer Datenquellen und der Verbesserung der Benutzererfahrung.
