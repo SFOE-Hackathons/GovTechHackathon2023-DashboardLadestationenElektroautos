@@ -13,6 +13,10 @@ Die Benutzeroberfläche der Plattform wurde mithilfe von ReactJS und Openlayers 
 
 Insgesamt ist die Architektur von Dashboard Ladestationen Elektroauto darauf ausgelegt, eine einfache, benutzerfreundliche Plattform bereitzustellen, die es Benutzern ermöglicht, schnell und einfach Ladelast öffentliche Ladestationen für Elektrofahrzeuge in der Schweiz darzustellen.
 
+![image](https://user-images.githubusercontent.com/4577727/227520900-02efbbe9-6a40-480e-9928-3452a9b72295.png)
+https://www.figma.com/file/I0ZCxpOksgNINw1O9YIkld/Untitled?t=zEReczUW3mQwgTqj-0
+
+
 ## API/Schnittstelle
 
 Das Backend stellt folgende Endpunkte zur Verfügung: (WORK IN PROGRESS)
@@ -70,7 +74,7 @@ Dashboard https://govtech.iwf.io/
 
 ![qrCodeDashBoard](https://user-images.githubusercontent.com/35913243/227517104-42d0a848-4423-44a6-b2ba-f5d3e86ec27b.png)
 
-## Front-End Repository
+## Front-End Repository (WIP)
 
 https://github.com/jarheadcore/govtech-poc
 
@@ -85,6 +89,6 @@ https://github.com/PhuongDasen<br>
 https://github.com/pitFromCH<br>
 https://github.com/cype<br>
 
-## Architektur
-![image](https://user-images.githubusercontent.com/4577727/227520802-e2a5e8a3-c5e6-4723-887e-4deb17bbfd27.png)
-https://www.figma.com/file/I0ZCxpOksgNINw1O9YIkld/Untitled?t=zEReczUW3mQwgTqj-0
+
+
+
