@@ -1,6 +1,4 @@
-# GovTechHackathon2023-DashboardLadestationenElektroautos
-GovTech Hackathon 2023 - Dashboard Ladestationen Elektroautos
-
+# GovTech Hackathon 2023 - Dashboard Ladestationen Elektroautos
 
 https://hack.opendata.ch/project/944
 
