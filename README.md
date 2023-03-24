@@ -33,6 +33,8 @@ Das Backend stellt folgende Endpunkte zur Verfügung:
 
 Die Daten werden von Python-Skripten verarbeitet, um sie aus den APIs zu sammeln, bereinigen, aggregieren und in eine ELSATIC zu speichern.
 
+Für die Berechnung der bezogenen Ladeleistung wird die theoretisch verfügbare Leistung eines Stecker mit dem Faktor 0.6 multipliziert. Wenn für ein Stecker die Ladeleistung nicht bekannt ist, wird 11 kW angenommen.
+
 ## Benutzeroberfläche
 Bezogene Energiemenge des Vortages (MWh)
 Aktuelle bezogene Ladeleistung (MW)
