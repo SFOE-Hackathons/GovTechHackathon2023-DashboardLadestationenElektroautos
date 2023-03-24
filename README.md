@@ -34,7 +34,11 @@ Das Backend stellt folgende Endpunkte zur Verfügung:
 Die Daten werden von Python-Skripten verarbeitet, um sie aus den APIs zu sammeln, bereinigen, aggregieren und in eine ELSATIC zu speichern.
 
 ## Benutzeroberfläche
-Das Dashboard zeigt eine Karte mit den verfügbaren Ladestationen und deren aktuellen Status (verfügbar, besetzt, defekt) sowie Diagramme des historischen Stromverbrauchs jeder Ladestation.
+Bezogene Energiemenge des Vortages (MWh)
+Aktuelle bezogene Ladeleistung (MW)
+Aktuelle öffentliche genutzte Ladestandorte (%)
+Das Dashboard zeigt des weiteren eine Ladeintensitätskarte: Sie zeigt die aktuell bezogene Ladeleistung. Je intensiver der Gelbton, desto grösser die bezogene Ladeleistung. Das Balkendiagramm zeigt die bezogene Energiemenge pro Tag und Monat
+
 
 ## Anwendungsbeispiele
 Die Anwendungsfälle sind breit gefächert von reiner Informationsgewinnung durch den interessierten Bürger, über politische Regulatorien wie die «Nationale Strommangellage» bis hin zur kommerziellen Nutzung der Anbieter von Öffentliche Ladestation. 
