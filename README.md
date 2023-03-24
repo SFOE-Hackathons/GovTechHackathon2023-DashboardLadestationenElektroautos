@@ -37,7 +37,14 @@ Die Daten werden von Python-Skripten verarbeitet, um sie aus den APIs zu sammeln
 Das Dashboard zeigt eine Karte mit den verfügbaren Ladestationen und deren aktuellen Status (verfügbar, besetzt, defekt) sowie Diagramme des historischen Stromverbrauchs jeder Ladestation.
 
 ## Anwendungsbeispiele
-Einige Beispiele dafür, wie das System zur Überwachung des Stromverbrauchs und Konsums bei Elektrofahrzeug-Ladestationen in der Schweiz verwendet werden kann.
+Die Anwendungsfälle sind breit gefächert von reiner Informationsgewinnung durch den interessierten Bürger, über politische Regulatorien wie die «Nationale Strommangellage» bis hin zur kommerziellen Nutzung der Anbieter von Öffentliche Ladestation. 
+
+* Mit dem benutzerfreundlichen und intuitiven Dashboard kann der Interessierte Bürger jederzeit schweizweit oder lokal (Kanton, Gemeinde) eine minutenaktuelle Übersicht erlangen wo wieviel Strom «getankt» wird. Dazu wird dem weniger technisch bewandertem Bürger ein Referenzvergleich (Stromverbrauch pro vierköpfiges Einfamilienhaues, oder Anzahl Windturbinen zur Erzeugung des aktuellen Strombedarfs)
+* Politische Organe bekommen mit dem Dashboard schnell die aktuelle Lage der Stromkonsumation (realtime) der öffentlichen Ladestationen schweizweit oder wenn gewünscht auch lokal (Kanton, Gemeinde). So erhalten sie zusätzliche Entscheid-Grundlagen um z.B. lokal Strom zu begrenzen. 
+Diese Informationen können auch via API automatisiert in weitere Systeme übernommen werden
+* Kommerzielle Anbieter von öffentlichen Ladestationen bietet die Lösung Informationen, damit der Ausbau von Ladestationen an den «richtigen» Standorten erfolgt (wo wird wann wie viel geladen) und die Möglichkeit «Smart-Charger» bereitzustellen. Dazu dienen hiostroisierte Übersichten über den Tag, die Woche und die Monate. 
+Der «SmartCharger» kann einerseits dynamisch den Ladestrom regulieren andererseits auch ein zeitbasiertes Priceing anbieten. Samtliche Daten sind via API verfügbar. 
+
 
 ## Limitationen
 Eine Diskussion über die Grenzen des Systems, einschließlich möglicher Einschränkungen bei der Verwendung der verfügbaren Daten und der Genauigkeit der Ergebnisse.
