@@ -62,7 +62,12 @@ Der «SmartCharger» kann einerseits dynamisch den Ladestrom regulieren anderers
 .
 
 ## Zukünftige Entwicklungen
-Eine Beschreibung möglicher zukünftiger Entwicklungen des Systems, einschließlich der Integration neuer Datenquellen und der Verbesserung der Benutzererfahrung.
+Publish & host the API
+Monetization of the API?
+Possibility for providers for dynamic price switching at chargers
+Integrate other data sources 
+-> Open Data -> New Insights
+
 
 ## Links
 
