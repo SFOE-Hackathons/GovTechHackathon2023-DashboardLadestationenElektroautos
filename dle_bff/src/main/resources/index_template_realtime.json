@@ -1,0 +1,33 @@
+{
+    "index_patterns": ["realtime"],
+    "template" : {
+        "settings": {
+            "number_of_shards": 1
+        },       
+        "mappings" : {
+            "properties": {
+                "last_update" : {
+                    "type" : "date"
+                },
+                "nominal_max_power" : {
+                    "type" : "double"
+                },
+                "estimated_power" : {
+                    "type" : "double"
+                },
+                "occupied" : {
+                    "type" : "boolean"
+                },
+                "canton" : {
+                    "type" : "keyword"
+                },
+                "zip" : {
+                    "type" : "keyword"
+                },
+                "location" : {
+                    "type" : "geo_point"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "index_patterns": ["charging"],
+    "template" : {
+        "settings": {
+            "number_of_shards": 1
+        },       
+        "mappings" : {
+            "properties": {
+                "start" : {
+                    "type" : "date"
+                },
+                "end" : {
+                    "type" : "date"
+                },
+                "nominal_max_power" : {
+                    "type" : "double"
+                },
+                "estimated_power" : {
+                    "type" : "double"
+                },
+                "energy" : {
+                    "type" : "double"
+                },
+                "charger" : {
+                    "type" : "keyword"
+                },
+                "canton" : {
+                    "type" : "keyword"
+                },
+                "zip" : {
+                    "type" : "keyword"
+                },
+                "location" : {
+                    "type" : "geo_point"
+                }
+            }
+        }
+    }
+}
