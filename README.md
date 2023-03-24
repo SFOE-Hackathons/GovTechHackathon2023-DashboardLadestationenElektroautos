@@ -86,5 +86,5 @@ https://github.com/pitFromCH<br>
 https://github.com/cype<br>
 
 ## Architektur
-![image](Architektur.jpg)
+![image](https://user-images.githubusercontent.com/4577727/227520802-e2a5e8a3-c5e6-4723-887e-4deb17bbfd27.png)
 https://www.figma.com/file/I0ZCxpOksgNINw1O9YIkld/Untitled?t=zEReczUW3mQwgTqj-0
