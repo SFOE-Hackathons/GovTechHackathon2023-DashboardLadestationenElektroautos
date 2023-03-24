@@ -33,9 +33,9 @@ Das Backend stellt folgende Endpunkte zur Verfügung: (WORK IN PROGRESS)
 Für die Berechnung der bezogenen Ladeleistung wird die theoretisch verfügbare Leistung eines Stecker mit dem Faktor 0.6 multipliziert. Wenn für ein Stecker die Ladeleistung nicht bekannt ist, wird 11 kW angenommen.
 
 ## Benutzeroberfläche
-Bezogene Energiemenge des Vortages (MWh)
-Aktuelle bezogene Ladeleistung (MW)
-Aktuelle öffentliche genutzte Ladestandorte (%)
+Bezogene Energiemenge des Vortages (MWh)<br>
+Aktuelle bezogene Ladeleistung (MW)<br>
+Aktuelle öffentliche genutzte Ladestandorte (%)<br>
 Das Dashboard zeigt des weiteren eine Ladeintensitätskarte: Sie zeigt die aktuell bezogene Ladeleistung. Je intensiver der Gelbton, desto grösser die bezogene Ladeleistung. Das Balkendiagramm zeigt die bezogene Energiemenge pro Tag und Monat
 
 
