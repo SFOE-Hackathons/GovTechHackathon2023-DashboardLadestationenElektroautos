@@ -1,0 +1,54 @@
+# CRAFT ENVIRONMENT
+.env
+
+# COMPOSER
+/vendor
+
+# ASSETS
+/web/assets/content/*
+/web/build/**
+/web/dist/**
+
+# CONTROL PANEL
+/web/cpresources/**
+
+# BUILD FILES
+/node_modules/*
+/yarn-error.log
+
+# DOCKER
+/docker/run/docker-compose.yml
+/docker/run/data/log/*
+/docker/build/code
+
+# CERTS
+/docker/run/certificates/*
+
+# MISC FILES
+*~
+.DS_Store
+Thumbs.db
+nbproject/*
+.project
+.buildpath
+.settings/*
+.idea/*
+.cache
+.project
+.settings
+logs/*
+*.esproj
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+config.codekit3
+prepros-6.config
+web/cache/
+web/file.sql
+*.sql

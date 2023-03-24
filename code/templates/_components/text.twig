@@ -1,0 +1,11 @@
+{% if component.text|length %}
+    <div class="prose component-text prose-neutral dark:prose-invert">
+        <article>
+            {{ component.text }}
+        </article>
+    </div>
+{% endif %}
+
+{% js %}
+    contentTl.fromTo(".component-text *", { x: -50, opacity: 0 }, { opacity: 1, x: 0, duration: 0.25, ease: 'easeInOut', stagger: 0.1 });
+{% endjs %}

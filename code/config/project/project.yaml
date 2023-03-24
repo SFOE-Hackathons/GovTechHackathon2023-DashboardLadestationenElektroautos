@@ -1,0 +1,31 @@
+dateModified: 1679574404
+email:
+  fromEmail: test@test.ch
+  fromName: govtech-poc
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0d20a011-14b4-4cf5-9040-1702d37d3a26: govtech-poc # govtech-poc
+    b9fbdcef-6ae6-49b2-bbc4-9d6220f2fbf5: govtech-poc # govtech-poc
+    e0c5b934-f399-47e8-be2a-f3a8a4d601c1: Common # Common
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: govtech-poc
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

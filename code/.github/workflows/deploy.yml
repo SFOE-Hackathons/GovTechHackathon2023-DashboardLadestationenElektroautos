@@ -1,0 +1,20 @@
+name: 'Deploy to ploi.io on push to main'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ploi-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v3
+
+    # Trigger Ploi deploy webhook
+    - name: Deploy to Ploi.io
+      uses: Glennmen/ploi-deploy-action@v1.2.0
+      with:
+        webhook_url: ${{ secrets.WEBHOOK_URL }}

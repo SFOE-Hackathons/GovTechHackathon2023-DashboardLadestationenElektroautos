@@ -1,0 +1,13 @@
+{#
+Main Template Handler
+Routes Template Requests to on of these (in order)
+    - templates/_sections/_[section_name]/_[entry_type].twig
+    - templates/_sections/_[section_name]/_default.twig
+    - templates/_sections/_default.twig
+#}
+
+{% include [
+    '_sections/' ~ entry.section.handle ~ '/' ~ entry.type ~ '/' ~ 'default.twig',
+    '_sections/' ~ entry.section.handle ~ '/default.twig',
+    '_sections/default.twig'
+] %}

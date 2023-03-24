@@ -1,0 +1,32 @@
+{% do craft.app.elements.eagerLoadElements(className(entry), [entry], ['matrixContent']) %}
+
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>GovTech Hackathon 2023 | Dashboard Ladestationen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    
+    {# Craft CMS Vite #}
+    {{ craft.vite.script("src/app.js") }}
+</head>
+<body class="flex flex-col min-h-screen bg-neutral-900">
+    {{ beginBody() }}
+
+    {% block content %}
+        {# block content #}
+    {% endblock %}
+    
+    {% block footer %}
+        {# block footer #}
+    {% endblock %}
+
+    {% block scripts %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    {% endblock %}
+
+    {{ endBody() }}
+</body>
+</html>

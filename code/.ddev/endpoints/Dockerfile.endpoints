@@ -1,0 +1,6 @@
+FROM openjdk:20-ea-17-slim-buster
+
+COPY .ddev/endpoints/endpoints.jar /home/endpoints.jar
+
+EXPOSE 31001
+CMD ["java", "-jar", "/home/endpoints.jar"]

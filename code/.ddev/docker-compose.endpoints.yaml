@@ -1,0 +1,15 @@
+services:
+  endpoints:
+    build:
+      context: ../
+      dockerfile: .ddev/endpoints/Dockerfile.endpoints
+    container_name: "ddev-${DDEV_SITENAME}-endpoints"
+    expose:
+      - "31001"
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+      com.ddev.approot: ${DDEV_APPROOT}
+    environment:
+      - VIRTUAL_HOST=$DDEV_HOSTNAME
+      - HTTP_EXPOSE=31002:31001
+      - HTTPS_EXPOSE=31001:31001

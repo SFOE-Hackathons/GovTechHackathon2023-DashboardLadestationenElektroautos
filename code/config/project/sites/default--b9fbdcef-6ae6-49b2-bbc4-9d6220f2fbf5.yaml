@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de-CH
+name: govtech-poc
+primary: true
+siteGroup: 0d20a011-14b4-4cf5-9040-1702d37d3a26 # govtech-poc
+sortOrder: 1
